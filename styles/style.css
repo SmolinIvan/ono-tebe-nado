@@ -88,7 +88,8 @@ address {
   font-family: Raleway, sans-serif;
   font-weight: 400;
   padding-top: 5px;
-  padding-left: 153px;
+  align-self: center;
+  justify-self: end;
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.01em;
@@ -129,7 +130,7 @@ address {
   height: 355px;
   display: flex;
   flex-direction: column;
-  z-index:2;
+  z-index: 2;
   inset: 165px 50px 237px 50px;
 }
 
@@ -141,7 +142,7 @@ address {
 .aligned-text_center {
   margin-left: 286px;
   letter-spacing: 0.3em;
-  margin-bottom:  5px;
+  margin-bottom: 5px;
 }
 
 .aligned-text_right {
@@ -155,7 +156,7 @@ address {
 }
 
 .letter-spacing-extended {
-margin-left: -24px;
+  margin-left: -24px;
 }
 
 .cover__description {
@@ -176,6 +177,7 @@ margin-left: -24px;
   word-spacing: 18.5px;
   font-weight: 400;
 }
+
 button {
   font-family: Raleway, sans-serif;
   color: white;
@@ -188,9 +190,10 @@ button {
   height: 51px;
 
 }
+
 .bet-button {
   width: 256px;
-  height:51px;
+  height: 51px;
   position: relative;
   border: 1px solid white;
   font-weight: 500;
@@ -219,7 +222,7 @@ button {
   display: flex;
   flex-direction: row;
   width: 100%;
-  gap:25px;
+  gap: 25px;
 }
 
 .lots__card-list-item {
@@ -322,11 +325,8 @@ button {
     "about__logo about__title about__title"
     "about__logo about__title about__title"
     "about__logo about__column about__column"
-    "about__logo about__column about__column"
-
-;
+    "about__logo about__column about__column";
 }
-
 
 .about__column {
   grid-area: about__column;
@@ -385,4 +385,52 @@ button {
   letter-spacing: 0.01em;
 }
 
+.footer {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 180px 50px 80px 50px;
 
+}
+
+.footer__menu {
+
+}
+
+.footer__menu-list {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer__menu-list-item {
+  list-style: none;
+
+}
+
+
+.footer__menu-link {
+  border-bottom: 1px black solid;
+}
+
+.footer__menu-link_active {
+
+}
+
+.footer__social-list {
+  display: flex;
+  gap: 48px ;
+}
+
+.footer__social-list-item {
+  list-style: none;
+}
+
+.footer__social-link {
+
+}
+
+.footer__social-icon {
+  width: 48px;
+  height: 48px;
+}

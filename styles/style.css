@@ -302,15 +302,87 @@ button {
 }
 
 .lots__look-more-link {
+  position: absolute;
   display: flex;
   margin: 30px 0px 0px 40px;
   font-size: 20px;
-  text-decoration: underline;
+  border-bottom: 1px black solid;
 }
-/*font-family: Raleway;*/
-/*font-size: 18px;*/
-/*font-weight: 400;*/
-/*line-height: 24.3px;*/
-/*letter-spacing: 0.01em;*/
-/*text-align: left;*/
+
+.about {
+  width: 1052px;
+  height: 595px;
+  display: grid;
+  margin: 146px 24px 0px 24px;
+
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 25px;
+  grid-template-areas:
+    "about__logo about__title about__title"
+    "about__logo about__title about__title"
+    "about__logo about__column about__column"
+    "about__logo about__column about__column"
+
+;
+}
+
+
+.about__column {
+  grid-area: about__column;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.about__logo {
+  margin-top: 35px;
+  position: relative;
+  grid-area: about__logo;
+  align-self: start;
+  justify-self: center;
+  background-color: black;
+  width: 240px;
+  height: 240px;
+  border-radius: 300px;
+
+}
+
+.about__logo-image {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  width: 148px;
+  height: 114px;
+
+}
+
+.about__title {
+  grid-area: about__title;
+  align-self: center;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.about__text1 {
+  grid-area: about__text;
+  align-self: flex-end;
+  justify-self: flex-end;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+}
+
+.about__text {
+  align-self: flex-end;
+  justify-self: flex-end;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.01em;
+}
+
 

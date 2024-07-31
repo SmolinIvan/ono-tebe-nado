@@ -1,1 +1,1 @@
-Проект первого спринта
+https://github.com/SmolinIvan/ono-tebe-nado

@@ -1,5 +1,9 @@
 /* место для вашего кода */
 
+html {
+  scroll-behavior: smooth;
+}
+
 .header {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -38,6 +42,10 @@
   list-style: none;
 }
 
+.header__link_active {
+  text-decoration: none;
+}
+
 .header__link {
   border-bottom: 1px solid black;
   text-decoration: none;
@@ -50,7 +58,6 @@
   align-self: center;
   width: 148px;
   height: 105px;
-
 }
 
 .header__logo-image {
@@ -375,8 +382,13 @@
   list-style: none;
 }
 
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
 .footer__menu-link {
   border-bottom: 1px black solid;
+  text-decoration: none;
 }
 
 

@@ -15,9 +15,11 @@
 }
 
 .header__menu {
-  letter-spacing: 0.005em;
-  box-sizing: border-box;
+  letter-spacing: 0.02em;
   grid-area: header__menu;
+  justify-self: center;
+  margin-top: 2px;
+  margin-left: 22px;
 
 }
 
@@ -60,6 +62,7 @@
   font-style: normal;
   font-weight: 400;
   justify-self: end;
+  margin-right:30px;
   font-size: 18px;
   line-height: 24px;
   letter-spacing: 0.01em;
@@ -122,32 +125,31 @@
   display: flex;
   flex-direction: row;
   letter-spacing: 0.3em;
-  margin-bottom: 13px;
+  margin-bottom: 12.5px;
 }
 
 .aligned-text_center {
   display: flex;
-  flex-direction: row;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: -29px;
+  align-self: center;
   letter-spacing: 0.3em;
   margin-bottom: 5px;
 }
 
 .aligned-text_right {
   display: flex;
-  margin-left: auto;
-  flex-direction: row;
-  letter-spacing: 0.3em;
+  align-self: end;
+  margin-right: -27px;
+  letter-spacing: 0.29em;
 }
 
 .no-letter-spacing {
-  font-size: 100px;
+  margin-right:3px;
 }
 
 .letter-spacing-extended {
   font-size: 100px;
-  margin-left: 24px;
+  margin-left: 28px;
 }
 
 .cover__description {
@@ -201,7 +203,7 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  line-height: 583px;
+  height: 563px;
   gap: 25px;
 }
 
@@ -246,11 +248,13 @@
 }
 
 .card__header {
+  box-sizing: border-box;
   z-index: 2;
   display: flex;
   flex-direction: column;
   align-self: center;
-  margin: 51px 40px 0px 0px ;
+  width: 254px;
+  margin-top: 51px;
 }
 
 .card__title {

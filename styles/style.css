@@ -70,18 +70,17 @@ html {
   flex-direction: column;
   grid-area: address;
   justify-self: end;
+  width: 230px;
+  margin-right: 35px;
+}
+
+.header__address {
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
   line-height: 24px;
   letter-spacing: 0.005em;
-  width: 230px;
-  margin-right: 35px;
   text-underline-offset: 4px;
-}
-
-.header__address {
-  margin-right: auto;
 }
 
 .cover {
@@ -328,13 +327,19 @@ html {
   padding: 182px 50px 88px 50px;
 }
 
-.footer__menu {
-  display: flex;
-  //margin-top: 1px;
-  margin-right: 21px;
-
+.footer__address {
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  text-underline-offset: 4px;
 }
 
+.footer__menu {
+  display: flex;
+  margin-right: 23px;
+}
 
 .footer__menu-list {
   display: flex;

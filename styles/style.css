@@ -30,7 +30,8 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: end;
-  gap: 29px;
+  gap: 32px;
+  letter-spacing: 0.01em;
 }
 
 .header__links-list-item {
@@ -79,7 +80,6 @@ html {
   font-size: 18px;
   font-style: normal;
   line-height: 24px;
-  letter-spacing: 0.005em;
   text-underline-offset: 4px;
 }
 
@@ -144,7 +144,7 @@ html {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px 52px 52px 76px;
+  padding: 0px 50px 53px 76px;
   color: white;
   font-size: 22px;
   text-transform: uppercase;
@@ -173,7 +173,6 @@ html {
   margin-top: 179px;
   margin-right: auto;
   margin-left: auto;
-
 }
 
 .lots__heading {
@@ -268,7 +267,7 @@ html {
   justify-items: left;
   gap: 15px;
   width: 1052px;
-  margin: 181px 24px 0px 24px;
+  margin: 182px 25px 0px 23px;
 }
 
 .about__column {
@@ -313,11 +312,11 @@ html {
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: 0.005em;
+  letter-spacing: 0.001em;
 }
 
 .extra__letter__spacing__about {
-  letter-spacing: 0.001em;
+  letter-spacing: -0.001em;
 }
 
 .footer {
@@ -332,7 +331,6 @@ html {
   font-size: 18px;
   font-style: normal;
   line-height: 24px;
-  letter-spacing: 0.005em;
   text-underline-offset: 4px;
 }
 
